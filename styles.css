@@ -1,0 +1,162 @@
+/* - Mobile: 375px
+- Desktop: 1440px
+@media (max-width: 375px)
+- Very Dark Blue: #07043B
+- Desaturated Blue: #575989
+
+- Bright Blue: hsl(224, 93%, 58%)
+- Moderate Cyan: hsl(170, 45%, 43%)
+
+- Light Grayish Blue: #F9F8FE
+- Light Gray: hsl(0, 0%, 75%)
+ */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #07043B;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding: 4% 0 2%;
+  line-height: 1.5;
+}
+p {
+  width: 80%;
+  padding-bottom: 2%;
+}
+/* NAVBAR */
+.nav-link {
+  margin: 10px 20px 0;
+  font-family: 'Raleway', sans-serif;
+  color: #07043B;
+}
+.navbar {
+  padding: 0 0 5rem;
+}
+.container-fluid {
+  padding: 3% 5%;
+}
+.emailcell {
+  display:inline-block;
+  width: 50%;
+  padding-top: 2px;
+}
+.img-col {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  bottom: 4rem;
+}
+#mid {
+  background-color: #F9F8FE;
+}
+.wave {
+  width: 100%;
+}
+.card {
+  width: 55%;
+border: none;
+margin-bottom: 10%;
+}
+.card-text {
+  font-size: 0.9rem;
+  line-height: 2;
+  margin: 0;
+  width: 100%;
+}
+.card-title {
+  margin: 0 0 3%;
+}
+.avatar {
+  border-radius: 100%;
+  width: 15%;
+}
+.quote {
+  font-size: 0.7rem;
+  padding: 0.3rem 0 0 3.5rem;
+}
+.green-link {
+  color: #3C9D8D;
+  /* text-decoration: underline; with big spacing:*/
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+.green-link:hover {
+  text-decoration: none;
+  color: #3C9D8D;
+  font-weight: bold;
+}
+.img-col2 {
+  margin: auto;
+  width: 90%;
+  position: relative;
+  top: 5rem;
+  left: 5rem;
+}
+#cta {
+  background-color: #575989;
+  padding: 3% 0;
+}
+.white {
+  color: #F9F8FE;
+}
+.form-group {
+  width: 80%;
+  padding: 7% 4% 2% 4%;
+}
+#footer {
+  background-color: #07043B;
+  padding: 3% 0;
+}
+.white-logo {
+filter: invert(84%) sepia(99%) saturate(19%) hue-rotate(121deg) brightness(300%) contrast(100%);
+padding-bottom: 2%;
+}
+.text-footer {
+  color: #F9F8FE;
+  padding: 0.5rem;
+  margin: 0;
+}
+.fab {
+  color: #F9F8FE;
+  padding: 1%;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+  .emailcell {
+    text-align: center;
+    display:block;
+    width: 100%;
+    padding-bottom: 2px;
+  }
+  p {
+    width: 100%;
+  }
+  .nav-link {
+    margin:0;
+    padding: 0.5rem;
+  }
+  h1 {
+      font-size: 2rem;
+  }
+.btn1 {
+  text-align: center;
+  width: 100%;
+  margin: 0 0 0 0;
+}
+.img-col {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  position:absolute;
+}
+
+}
